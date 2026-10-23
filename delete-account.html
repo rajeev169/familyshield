@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete Family Shield Account</title>
+<meta name="description" content="How to delete your Family Shield account and data, or only some of your data.">
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --text: #1b2430; --muted: #5a6675;
+    --accent: #1f6feb; --line: #e3e8ef; --danger: #c62828;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f141a; --card: #171e26; --text: #e6edf3; --muted: #9aa7b4;
+      --accent: #6aa8ff; --line: #26303b; --danger: #ff6b6b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px; background: var(--accent);
+    display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 22px; flex: none;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 30px 0 8px; }
+  .muted { color: var(--muted); font-size: .92rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 18px 14px; margin-top: 14px; }
+  .card h3 { margin: 12px 0 4px; font-size: 1rem; }
+  ol, ul { padding-left: 22px; }
+  .btn {
+    display: inline-block; background: var(--danger); color: #fff; text-decoration: none;
+    padding: 10px 16px; border-radius: 10px; font-weight: 600; margin: 6px 0;
+  }
+  a { color: var(--accent); }
+  code { background: var(--line); padding: 1px 5px; border-radius: 5px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">F</div>
+    <h1>Delete your Family Shield account</h1>
+  </header>
+  <p class="muted">App: Family Shield (com.rajeev.familyshield) · Developer: Rajeev Kant · Last updated: 23 October 2026</p>
+
+  <h2 id="in-app">Option 1: Delete in the app (fastest)</h2>
+  <div class="card">
+    <h3>Parent phone</h3>
+    <ol>
+      <li>Open Family Shield and tap the menu (⋮) at the top right.</li>
+      <li>Tap <strong>Delete account</strong>.</li>
+      <li>Read the list, tick <em>"I understand"</em> and tap <strong>Delete</strong>.</li>
+      <li>Choose your Google account to confirm it's you. Everything is deleted straight away.</li>
+    </ol>
+    <h3>Child phone</h3>
+    <ol>
+      <li>Open Family Shield and scroll to the bottom of the home screen.</li>
+      <li>Tap <strong>Delete my account</strong> and enter the parent PIN.</li>
+      <li>Tick <em>"I understand"</em>, tap <strong>Delete</strong> and confirm your Google account.</li>
+    </ol>
+    <p class="muted">The parent PIN is needed so the child's protection can't be switched off without the parent. A parent can also delete a child's data by removing that child (see Option 3).</p>
+  </div>
+
+  <h2 id="email">Option 2: Ask us by email</h2>
+  <div class="card">
+    <p>If you can't use the app (for example, it is uninstalled or the phone is lost), email us from the Gmail address you use in Family Shield:</p>
+    <p><a class="btn" href="mailto:rajeevkant932@gmail.com?subject=Delete%20my%20Family%20Shield%20account&body=Please%20delete%20my%20Family%20Shield%20account%20and%20data.%0AI%20am%20a%3A%20parent%20%2F%20child%20(choose%20one)%0A">Email a deletion request</a></p>
+    <ul>
+      <li>To: <code>rajeevkant932@gmail.com</code></li>
+      <li>Subject: <code>Delete my Family Shield account</code></li>
+      <li>Say whether it is a parent or a child account.</li>
+    </ul>
+    <p>We may reply to confirm the request comes from the account owner. Requests are completed within <strong>30 days</strong>, and we will email you when it's done.</p>
+  </div>
+
+  <h2 id="delete-some-data">Option 3: Delete some data, keep the account</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Remove a child</strong> (parent phone): open the child, tap the menu (⋮), then <em>Remove this child</em>. That child's location, places, app list, screen time and rules are deleted and the phone is disconnected.</li>
+      <li><strong>Delete a saved place</strong> (parent phone): open the child → Location → tap the delete icon next to the place.</li>
+      <li><strong>Anything else:</strong> email us at <a href="mailto:rajeevkant932@gmail.com?subject=Delete%20some%20of%20my%20Family%20Shield%20data">rajeevkant932@gmail.com</a> saying which data you want deleted. Done within 30 days.</li>
+    </ul>
+  </div>
+
+  <h2 id="what">What is deleted</h2>
+  <div class="card">
+    <h3>Parent account</h3>
+    <ul>
+      <li>Your name, email, user ID, parent PIN, plan status and all alerts</li>
+      <li>For every linked child: location, saved places, installed-apps list, daily screen time, rules and the link to your account</li>
+      <li>All pending invites</li>
+      <li>Your Family Shield sign-in account</li>
+    </ul>
+    <h3>Child account</h3>
+    <ul>
+      <li>The child's name, email, user ID and the link to the parent</li>
+      <li>The phone's location, installed-apps list, daily screen time and rules</li>
+      <li>The child's Family Shield sign-in account</li>
+    </ul>
+  </div>
+
+  <h2 id="kept">What is kept, and for how long</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Nothing else is kept by us.</strong> Deleted data is removed from our database straight away. We have no separate copies.</li>
+      <li><strong>Alerts a child's phone already sent</strong> (for example an SOS) belong to the parent's account. If only the child account is deleted, they stay with the parent until the parent deletes their own account.</li>
+      <li><strong>Google Play purchase records</strong> are kept by Google, not by us, under Google's own rules. Deleting your account does <strong>not</strong> cancel a subscription: cancel it in Google Play → Payments &amp; subscriptions → Subscriptions.</li>
+      <li>Your <strong>Google account</strong> itself is not affected. Only your Family Shield account is deleted.</li>
+    </ul>
+  </div>
+
+  <p class="muted" style="margin-top:28px">More details: <a href="index.html">Family Shield Privacy Policy</a></p>
+</main>
+</body>
+</html>
