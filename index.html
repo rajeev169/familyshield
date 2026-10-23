@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Shield Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Family Shield parental control app for Android.">
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --text: #1b2430; --muted: #5a6675;
+    --accent: #1f6feb; --line: #e3e8ef; --warn-bg: #fff6e5; --warn-line: #f0c36d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f141a; --card: #171e26; --text: #e6edf3; --muted: #9aa7b4;
+      --accent: #6aa8ff; --line: #26303b; --warn-bg: #2a2416; --warn-line: #8a6d2c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px; background: var(--accent);
+    display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 22px; flex: none;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  h3 { font-size: 1rem; margin: 18px 0 6px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: .92rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 18px 14px; margin-top: 16px; }
+  .note { background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: 12px; padding: 12px 16px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  nav a { margin-right: 14px; }
+  ul { padding-left: 20px; }
+  .table-wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">F</div>
+    <h1>Family Shield Privacy Policy</h1>
+  </header>
+  <p class="muted">Last updated: 23 October 2026 · App: Family Shield (com.rajeev.familyshield) · Developer: Rajeev Kant</p>
+  <nav class="muted"><a href="#data">Data we collect</a><a href="#use">How we use it</a><a href="#delete">Delete your data</a><a href="#contact">Contact</a></nav>
+
+  <div class="card">
+    <p>Family Shield is a parental control app. A parent installs it on their own phone and on their child's phone. The child's phone then shares its location, app use and safety status with that parent only, and applies the screen-time rules the parent sets.</p>
+    <p>This policy explains what data the app handles, why, who can see it, and how to delete it. We do not sell data, show ads or use analytics or tracking tools.</p>
+  </div>
+
+  <h2 id="data">1. Data we collect</h2>
+  <h3>From everyone who signs in (parent and child)</h3>
+  <ul>
+    <li><strong>Google account details:</strong> name, email address and a user ID, received when you sign in with Google. We never see your Google password.</li>
+  </ul>
+
+  <h3>From the parent's phone</h3>
+  <ul>
+    <li><strong>Parent PIN:</strong> the 4-digit PIN the parent sets, used to unlock protected settings on the child's phone.</li>
+    <li><strong>Subscription status:</strong> which plan is active and when the free trial started. Payments are handled entirely by Google Play; we never receive card or bank details.</li>
+    <li><strong>Children and invites:</strong> the child's name and Gmail address that the parent enters to connect a child's phone.</li>
+  </ul>
+
+  <h3>From the child's phone (only after the child's phone is connected to a parent)</h3>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>Precise and approximate location, including in the background</td><td>Shows the parent where the child is, sends arrive/leave alerts for places the parent saved, and attaches the location to SOS alerts.</td></tr>
+    <tr><td>List of installed apps</td><td>Lets the parent block apps, approve new apps and set time limits.</td></tr>
+    <tr><td>Screen time per app, per day</td><td>Shows the parent daily usage and enforces the limits they set.</td></tr>
+    <tr><td>Device model, battery level, charging state and last-seen time</td><td>Tells the parent the phone is online and protected.</td></tr>
+    <tr><td>Which protections are switched on</td><td>Warns the parent if usage access, accessibility, location or uninstall protection is turned off.</td></tr>
+    <tr><td>Alerts (SOS, new app installed, arrived/left a place, limit reached, protection off, wrong PIN)</td><td>Sent to the parent's phone as notifications.</td></tr>
+  </table>
+  </div>
+
+  <div class="note">
+    <strong>What we never collect:</strong> messages, photos, videos, contacts, call logs, browsing history, passwords or anything typed on the keyboard. The Accessibility service is used only to see <em>which app</em> is open, so the parent's blocks, limits, bedtime and study mode can be applied, and to ask for the parent PIN before Family Shield can be removed. To do this it reads the text shown on Android's Settings and app-installer screens, on the phone itself, only to recognise an attempt to uninstall Family Shield or switch off its protections. This text is never stored or sent anywhere. It does not read the content of any other app.
+  </div>
+
+  <h3>Permissions the child's phone asks for</h3>
+  <ul>
+    <li><strong>Location (including "Allow all the time")</strong>: live location and place alerts for the parent.</li>
+    <li><strong>Usage access</strong>: daily screen time per app.</li>
+    <li><strong>Accessibility</strong>: detects which app is open to apply the parent's rules, and recognises the Settings screens used to uninstall Family Shield or switch off protection (see above).</li>
+    <li><strong>Device admin</strong> (optional): asks for the parent PIN before Family Shield can be uninstalled.</li>
+    <li><strong>Notifications and a permanent notification</strong>: the child always sees that the phone is supervised.</li>
+  </ul>
+  <p>Before asking for these permissions, the app shows the child a clear explanation of what is collected and why.</p>
+
+  <h2 id="use">2. How we use and share data</h2>
+  <ul>
+    <li>Data is used <strong>only to provide the app's features</strong> described above.</li>
+    <li>A child's data is visible <strong>only to the parent who connected that phone</strong>. Parents and children cannot see anyone else's data.</li>
+    <li>We use these Google services to run the app: <strong>Firebase Authentication</strong> (sign-in), <strong>Cloud Firestore</strong> (storing the data above) and <strong>Google Play Billing</strong> (subscriptions). Google processes this data on our behalf under its own privacy terms.</li>
+    <li>We do <strong>not</strong> sell or rent data, use it for advertising, or share it with any other company, except if required by law.</li>
+  </ul>
+
+  <h2>3. Security and storage</h2>
+  <ul>
+    <li>All data is sent over encrypted connections (HTTPS/TLS) and stored on Google Cloud servers, which encrypt data at rest.</li>
+    <li>Access rules on the server make sure each account can only read its own data and its linked children's data.</li>
+  </ul>
+
+  <h2>4. How long we keep data</h2>
+  <ul>
+    <li>Data is kept while the account is in use.</li>
+    <li>When a parent <strong>removes a child</strong>, that child's location, places, app list, screen time and rules are deleted straight away.</li>
+    <li>When an account is <strong>deleted</strong>, its data is deleted straight away (see below). Requests sent by email are completed within 30 days.</li>
+  </ul>
+
+  <h2>5. Children</h2>
+  <p>Family Shield is meant to be used by parents and legal guardians (18+). A child's phone is connected only when the parent adds the child's Gmail address and the child's phone signs in, and the child is shown what is shared. We collect a child's data only to provide the supervision features chosen by their parent. Parents can review this data in the app and delete it at any time by removing the child or deleting their account.</p>
+
+  <h2 id="delete">6. Your choices and deleting your data</h2>
+  <ul>
+    <li><strong>Delete your account in the app:</strong> parent: menu (⋮) → <em>Delete account</em>; child: <em>Delete my account</em> at the bottom of the home screen (needs the parent PIN).</li>
+    <li><strong>Delete some data only:</strong> parents can remove a child (deletes that phone's data) or delete saved places.</li>
+    <li><strong>By email:</strong> see the <a href="delete-account.html">account deletion page</a> for every option and what is deleted.</li>
+  </ul>
+  <p>You can also ask us for a copy of your data or to correct it by email.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If we change this policy, we will update the date at the top of this page.</p>
+
+  <h2 id="contact">8. Contact</h2>
+  <p>Rajeev Kant, Bihar, India<br>Email: <a href="mailto:rajeevkant932@gmail.com?subject=Family%20Shield%20privacy">rajeevkant932@gmail.com</a></p>
+</main>
+</body>
+</html>
